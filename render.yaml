@@ -3,7 +3,8 @@ services:
     name: KraftHeinze
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py --server.port=10000 --server.enableCORS=false
+    startCommand: streamlit run app.py --server.port=10000 --server.enableCORS=false
+
     envVars:
       - key: PYTHON_VERSION
         value: 3.13.5
