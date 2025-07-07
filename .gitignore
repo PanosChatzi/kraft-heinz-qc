@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# Data files
+*.xlsx
+*.xls
+!data/sample_*.xlsx
+!data/sample_*.xls
+
+# Reports
+reports/*.xlsx
+reports/*.xls
+!reports/.gitkeep
+
+# VS Code
+.vscode/settings.json
+!.vscode/launch.json
+
+# OS
+.DS_Store
+Thumbs.db
